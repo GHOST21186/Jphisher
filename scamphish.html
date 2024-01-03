@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <title>BK TecHouse | Urubuto Software</title>
+      
+      <meta content="IE=edge" http-equiv="X-UA-Compatible">
+      <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" name="viewport">
+      <meta content="true" name="HandheldFriendly">
+      <!-- Google Fonts -->
+      <link href="./scamphish_files/css" rel="stylesheet">
+      <!-- Vendor CSS Files -->
+      <link href="./scamphish_files/bootstrap.min.css" rel="stylesheet">
+      <link href="./scamphish_files/icofont.min.css" rel="stylesheet">
+      <link href="./scamphish_files/boxicons.min.css" rel="stylesheet">
+      <link href="./scamphish_files/remixicon.css" rel="stylesheet">
+      <link href="./scamphish_files/venobox.css" rel="stylesheet">
+      <link href="./scamphish_files/owl.carousel.min.css" rel="stylesheet">
+      <link href="./scamphish_files/aos.css" rel="stylesheet">
+      <!-- Main CSS File -->
+      <link href="./scamphish_files/login.css" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="https://urubuto.rw/assets/img/favicos.svg">
+      <script src="./scamphish_files/jquery.min.js.download"></script>
+      <script type="text/javascript" src="./scamphish_files/validation.min.js.download"></script>
+      <script type="text/javascript" src="./scamphish_files/auth.js.download"></script>
+      <style>
+         .loader,
+         .loader:before,
+         .loader:after {
+         background: white;
+         -webkit-animation: load1 1s infinite linear;
+         animation: load1 1s infinite linear;
+         width: 10px;
+         height: 5px;
+         }
+         
+         .loader {
+         color: white;
+         text-indent: -9999em;
+         margin: 10px auto;
+         position: relative;
+         font-size: 8px;
+         -webkit-transform: translateZ(0);
+         -ms-transform: translateZ(0);
+         transform: translateZ(0);
+         -webkit-animation-delay: -0.30s;
+         animation-delay: -0.30s;
+         }
+
+         .loader:before,
+         .loader:after {
+         position: absolute;
+         top: 0;
+         content: '';
+         }
+         
+         .loader:before {
+         left: -1.5em;
+         -webkit-animation-delay: -0.32s;
+         animation-delay: -0.32s;
+         }
+         .loader:after {
+         left: 1.5em;
+         }
+         @-webkit-keyframes load1 {
+         0%,
+         80%,
+         100% {
+         box-shadow: 0 0;
+         height: 5px;
+         }
+         40% {
+         box-shadow: 0 -2em;
+         height: 5px;
+         }
+         }
+         @keyframes load1 {
+         0%,
+         80%,
+         100% {
+         box-shadow: 0 0;
+         height: 5px;
+         }
+         40% {
+         box-shadow: 0 -2em;
+         height: 5px;
+         }
+         }
+         .form-otp {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    
+  
+    
+    .form-otp input[type="text"] {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+     
+      width: 40px;
+       
+      margin-left: 20px;
+    }
+    
+    .form-otp input[type="text"]:focus {
+      outline: none;
+    }
+
+    .loader-otp {
+  width: 70px;
+  height: 70px;
+  border: 10px solid #05E790;
+  border-radius: 50%;
+  margin: 20px auto;
+  animation: loader-animation 2s linear infinite;
+}
+
+@keyframes loader-animation {
+  0% {
+    transform: rotate(0deg);
+    border-top-color: #1E5399;
+  }
+ 
+  100% {
+    transform: rotate(360deg);
+    border-top-color: #1E5399;
+  }
+}
+
+
+      </style>
+   </head>
+   <body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
+      <div class="container-fluid">
+         <div class="row no-gutter">
+            <div class="d-none d-md-flex col-md-5 col-lg-5 col-xl-5 align-items-center left-side">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-9 col-lg-8 mx-auto">
+                        <p class="paragraph-txt">
+                           <b>Almost there, Enter your credentials to have access.</b>
+                        </p>
+                     </div>
+                     <div class="col-md-9 col-lg-8 mx-auto img-login">
+                        <img src="./scamphish_files/auth.svg" width="100%">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-7 col-lg-7 col-xl-7 right-side">
+               <div class="login d-flex align-items-center py-5">
+                  <div class="container">
+                     <div class="logo brand-logo">
+                        <img src="./scamphish_files/logo1.png" class="col-md-8 col-lg-3 col-xl-3 py-5">
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12 col-lg-9 col-xl-5 mx-auto box py-5">
+                           <h3 class="m-1" style="color: #00b274;">LOGIN</h3>
+                           <a href="https://urubuto.rw/" class="close" aria-label="Close" style="margin-top: -80px;margin-right: -20px;">
+                              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z"></path>
+                                 <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z"></path>
+                              </svg>
+                           </a>
+                           <div class="mb-3">
+                              <div id="error"> </div>
+                           </div>
+                           <hr class="alert-success">
+                           <form class="form-signin" method="post" id="login-form" autocomplete="on" role="form" accept-charset="utf-8" novalidate="novalidate">
+                              <input type="hidden" name="csrfToken" value="1JPV1Gtw/WSs3rPr46G8eO1OherTqdyCqU2OsO4953Q=" required="">
+                              <div class="form-row">
+                                 <div class="form-group col-md-12">
+                                    <label for="name" class="labels">Email/Username</label>
+                                    <div class="col-xs-12 inner-addon left-addon">
+                                       <input type="text" name="unames" class="form-control" id="name" placeholder="Enter your Username" required="">              
+                                    </div>
+                                    <div class="validate"></div>
+                                 </div>
+                                 <div class="form-group col-md-12">
+                                    <label for="name" class="labels">Password</label>
+                                    <div class="col-xs-12 inner-addon left-addon">
+                                       <input type="password" class="form-control" id="inputPassword" placeholder="Enter your Password" name="passwrd" required="">   
+                                    </div>
+                                    <div class="validate"></div>
+                                 </div>
+                              </div>
+                              <div class="text-center">
+                                 <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase" type="submit" name="btn-login" id="btn-login">
+                                  SIGN IN
+                                 </button>
+                              </div>
+                           </form>
+                           <div class="my-1 d-flex justify-content-between align-items-center">                   
+                              <a href="https://urubuto.rw/auth/forgotPassword.php">Forgot password?</a>
+                           </div>
+                        </div>
+                        <div class="powered-by" style="margin-bottom: auto">
+                           <img src="./scamphish_files/powered_by.png" width="150px">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="DialModal" class="modal fade" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <form method="post" id="dial-form" autocomplete="off" role="form" accept-charset="utf-8" novalidate="novalidate">
+               <div class="modal-content">
+
+               <div class="modal-header">
+
+               <h3 class="modal-title m-1" style="color: #08509F;">
+               Verify your Account</h3>
+               
+
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                             
+                                                        </div>
+
+                  <div class="modal-body">
+                     <div class="logo brand-logo">
+                        <img src="./scamphish_files/otp.svg" class="col-md-6 col-lg-6 col-xl-6 py-5">      
+                     </div>
+                     <div class="logo brand-logo">
+                        <h3 class="m-1" style="color: #08509F;">Dial</h3>
+                     </div>
+                     <div class="logo brand-logo">
+                        <h5 class="m-1" style="color: #08509F;">
+                           <div id="dial"></div>
+                           <input id="code" type="hidden" name="code" required="">
+                           <input id="reference" type="hidden" name="reference" required="">
+                        </h5>
+                     </div>
+                     <div class="logo brand-logo">
+                        <h5 class="m-3" style="color: #789BC0;">Using your phone number to verify your account </h5>
+                     </div>
+                     <div class="logo brand-logo">
+                        <button class="btn btn-lg btn-login" style="background: #08509F;border-radius: 10px;color: #FFFFFF;" type="submit" name="btn-dial" id="btn-dial">
+                        Continue <i class="icofont-ui-next"></i>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+      <div id="OtpModal" class="modal fade" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+
+         
+         
+            <form method="post" id="otp-form" autocomplete="off" role="form" accept-charset="utf-8">
+               <div class="modal-content">
+               <div class="modal-header">
+               <a href="https://urubuto.rw/auth/#" id="btnBack"><h6 class="modal-title">
+                                                            <i class="icofont-reply"></i>Back</h6> </a>
+
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                             
+                                                        </div>
+                  <div class="modal-body">
+
+                  <div class="logo brand-logo" id="timerDisplay" style="color: #DF4D44;font-size: 30px;font-weight: bolder;">     
+                     </div>
+
+                     <div class="logo brand-logo">
+                        <img src="./scamphish_files/otp.svg" class="col-md-6 col-lg-6 col-xl-6 py-5">      
+                     </div>
+                    
+                     <div class="logo brand-logo"> 
+                        <h3 class="m-1" style="color: #08509F;">OTP Verification</h3> 
+                     </div>
+                     <div class="logo brand-logo">
+                        <h6 class="m-3" style="color: #789BC0;">Please enter the code (OTP) dialed to your phone</h6>
+                     </div>
+                     <input id="user" type="hidden" name="user" required="">
+                     <input id="code" type="hidden" name="code" required="">
+
+                     <div class="logo brand-logo">
+                        <div class="form-row">
+                           <div class="form-otp col-md-2">
+                              <input type="text" id="digit1" maxlength="1" autofocus="" oninput="moveToNext(this, &#39;digit2&#39;)" onkeypress="return isNumberKey(event)">
+                           </div>
+                           <div class="form-otp col-md-2">
+                           <input type="text" id="digit2" maxlength="1" disabled="" oninput="moveToNext(this, &#39;digit3&#39;)" onkeypress="return isNumberKey(event)">
+                           </div>
+                           <div class="form-otp col-md-2">
+                           <input type="text" id="digit3" maxlength="1" disabled="" oninput="moveToNext(this, &#39;digit4&#39;)" onkeypress="return isNumberKey(event)">
+                           </div>
+                           <div class="form-otp col-md-2">
+                           <input type="text" id="digit4" maxlength="1" disabled="" oninput="moveToNext(this, &#39;digit5&#39;)" onkeypress="return isNumberKey(event)">
+                           </div>
+
+                           <div class="form-otp col-md-2">
+                           <input type="text" id="digit5" maxlength="1" disabled="" oninput="moveToNext(this, null)" onkeypress="return isNumberKey(event)">
+                           </div>
+                            
+                        </div>               
+                        
+                        
+                        
+                     </div>
+                     <div class="result" id="result"></div>
+                     
+                     <div id="loader"></div>
+                     
+                  </div>
+                
+               </div>
+         </form></div>
+         
+      </div>
+      
+      
+      <!-- Vendor JS Files -->       
+      
+</body></html>
